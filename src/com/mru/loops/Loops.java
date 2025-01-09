@@ -25,6 +25,7 @@ public class Loops {
 		}
 		
 		//while loop
+		
 		int x=0;
 		while(x<n) {
 			System.out.println(arr1[x]);

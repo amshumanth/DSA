@@ -39,12 +39,7 @@ public class Java8Features {
 			return new StringBuilder(name).reverse().toString();
 		}).forEach(System.out::println);
 		
-		//olleh
-		//welcome
-		//ASD
 		
-		
-
 	}
 
 }

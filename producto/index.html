@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://media.licdn.com/dms/image/v2/C4E1BAQH3-De_njhcYA/company-background_10000/company-background_10000/0/1651066733503/producto_talent_cover?e=1752555600&v=beta&t=B-EtFnqI-gnUyoieyKiSyqY0ZAXRamXMpneu7EqpbTQ" alt="LOGO">
+        <h1>PRODUCTO</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <main>
+<div class="container">
+    <h2>Product Form</h2>
+    <input type="text" id="pid" placeholder="Product ID" />
+    <input type="text" id="pname" placeholder="Product Name" />
+    <input type="number" id="price" placeholder="Price" />
+    <input type="number" id="qty" placeholder="Quantity" />
+    <button onclick="addProduct()">Add Product</button>
+    <button onclick="displayProducts()">Display Products</button>
+
+    <table id="productTable">
+      <thead>
+        <tr>
+          <th>ID</th><th>Name</th><th>Price</th><th>Quantity</th><th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="products.js"></script>
+    </main>
+
+
+
+    <br>
+    <footer>
+        <p>&copy; 2025 PRODUCTO. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
